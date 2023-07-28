@@ -18,7 +18,7 @@ html {
 header {
     background-color: #d3d1c8;
     background-size: cover;
-    color: rgb(220, 212, 212);
+    color: #d3d1c8;
     height: 20%;
 }
 
@@ -90,7 +90,7 @@ footer {
 }
 
 
-/*  */
+/* Specific to page */
 .about-me {
 
     font-size: 25px; 

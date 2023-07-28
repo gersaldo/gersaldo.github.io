@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Regular.woff') format('woff2'),
+    url('assets/fonts/Poppins-Regular.woff2') format('woff2');
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+.top-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #d3d1c8;
+    background-size: cover;
+    color: #d3d1c8;
+    height: 20%;
+}
+
+.top-head-logo {
+    font-size: 70px;
+    margin-left: 20px;
+    color: rgb(220, 212, 212);
+}
+
+.top-head-buttons {
+    margin-right: 20px;
+    color: rgb(220, 212, 212);
+}
+
+.header-tab {
+    font-size: 20px; 
+    padding: 10px;
+    color: rgb(220, 212, 212);
+}
+
+body {
+    background-color: #d3d1c8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    margin-bottom: -50 auto;
+}
+
+
+
+    
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: #d3d1c8;
+    padding-bottom: 10px;
+}
+
+.footer-content {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Specific to page */
+
+
+.project_welcome {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px; 
+    color: rgb(0, 0, 0);
+}
+
+.project-1 {
+    display: flex;
+    height: auto;
+    font-size: 23px; 
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    border-radius: 30px;
+}
+
+.project-1-picture {
+
+    display: flex;
+    align-items: center;
+    margin-right: -auto;
+    margin-left: auto;
+}
+
+.pic_cut{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.project-1-words {
+    display: block;
+    text-align: left;
+    width: 65%;
+    height: auto;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.project-1-title-artist {
+    display: flex;
+    padding-bottom: 10px;
+    font-size: 27px;
+}
+
+.project-1-title {
+    display: block;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.project-1-review {
+    display: block;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+color: rgb(63, 63, 63);
+background-color: transparent;
+}
+
+a:hover {
+color: rgb(255, 255, 255);
+background-color: transparent;
+}
+
+
+
+
+

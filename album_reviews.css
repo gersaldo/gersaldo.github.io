@@ -79,12 +79,12 @@ footer {
 }
 
 
-
+/* Specific to page */
 
 .album_welcome {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 60px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px; 
     color: rgb(0, 0, 0);
 }
 
@@ -136,6 +136,22 @@ footer {
 
 .album-1-review {
     display: block;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+color: rgb(63, 63, 63);
+background-color: transparent;
+}
+
+a:hover {
+color: rgb(255, 255, 255);
+background-color: transparent;
 }
 
 
