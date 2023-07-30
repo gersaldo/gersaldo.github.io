@@ -49,11 +49,8 @@ body {
 
 }
 
-    
-
 main {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -64,7 +61,6 @@ main {
 }
 
 footer {
-
     width: 100%;
     display: flex;
     justify-content: center;
@@ -92,7 +88,6 @@ footer {
 
 /* Specific to page */
 .about-me {
-
     font-size: 25px; 
     color: black;
     display: flex;
@@ -104,8 +99,6 @@ footer {
     
 }
 
-
-
 .about-me-block {
     display: block;
     text-align: left;
@@ -114,8 +107,6 @@ footer {
     padding-right: 10%;
     padding-left: 10%;
 }
-
-
 
 .about-me-header {
     display: block;
@@ -134,17 +125,16 @@ footer {
     margin-bottom: 20px;
 }
 
-.photo_holder{
+.photo_holder {
     display: flex;
     justify-content: center;
 }
-
 
 a:link {
     color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
-  }
+}
   
 a:visited {
 color: rgb(63, 63, 63);
