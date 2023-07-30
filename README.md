@@ -1,4 +1,3 @@
 # gersaldo.github.io
 
-This is my personal website/portfolio for people
-to check out my cool stuff or connect.
+This is the code for my personal website/portfolio. 
